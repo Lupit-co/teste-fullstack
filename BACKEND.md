@@ -23,3 +23,6 @@ O propósito do teste é ser rápido e funcional, portanto:
 
 Tecnologia/framework/biblioteca utilizada:
 * Será informado via email
+
+<img width="552" alt="image" src="https://user-images.githubusercontent.com/69265280/166810448-6c5f1768-d7a3-420a-9bad-901cc9187daa.png">
+
