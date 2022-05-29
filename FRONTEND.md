@@ -80,7 +80,6 @@ Requisitos para a tela:
 * Ao salvar com sucesso, retornar para a listagem de jogadores
   * A lista deve estar atualizada
 
-Não precisamos validar:
-* Não é necessário validar se não existe nenhum time cadastrado
-* Não é necessário validar se o jogador já existe
-* Não é necessário validar
+**Não** precisamos validar:
+* Se não existe nenhum time cadastrado
+* Se o jogador já existe
