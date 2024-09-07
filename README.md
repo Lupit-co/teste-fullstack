@@ -2,10 +2,19 @@
 
 ## Informações básicas
 
-Criar uma aplicação capaz de Listar e Criar/Editar Jogadores de futebol com as seguintes informações: 
+Criar uma aplicação capaz de Listar e Criar/Editar Jogadores de futebol e times com as seguintes informações: 
+
+Jogador
+- Foto de perfil do jogador
 - Nome do Jogador
 - Time que ele joga
 - idade
+
+Time:
+- Logo do time
+- Nome do time
+- Galeria de imagens
+- Endereço
 
 Para isso, devemos seguir o diagrama abaixo:
 
@@ -13,7 +22,7 @@ Para isso, devemos seguir o diagrama abaixo:
 
 Mais informações sobre como desenvolver o frontend e o backend, respectivamente, nos arquivos FRONTEND.md e BACKEND.md.
 
-**OBS.: As tecnologias utilizadas serão definidas diretamente no corpo do email enviado.**
+**OBS.: As tecnologias utilizadas serão definidas diretamente no corpo do email/mensagem enviada.**
 
 ## Estrutura de pastas:
 É esperado que o projeto seja criado usando a estrutura de pastas abaixo
