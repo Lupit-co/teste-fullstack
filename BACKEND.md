@@ -17,6 +17,11 @@ Considerações e Validações:
 * Campo ID não deve ser informado ao cadastrar
 * Campo create_at e updated_at não devem ser informados ao cadastrar ou editar, o sistema deve adicioná-los automaticamente considerando o datetime atual
   * Ao editar, apenas o campo updated_at deve ser atualizado com a datetime atual
+ 
+Além disso, devemos também criar os endpoints correspontes para o Dashboard (imagem abaixo). Organize os endpoints conforme achar melhor.
+
+![image](https://github.com/user-attachments/assets/233b46b0-bc08-45e5-bbf9-0d522ac5763e)
+
 
 O propósito do teste é ser rápido e funcional, portanto:
 * Não é necessário criar validações de campos complexas (apenas validação de campos obrigatórios)
