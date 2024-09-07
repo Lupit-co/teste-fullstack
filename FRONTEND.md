@@ -80,10 +80,15 @@ Na home iremos ter basicamente dois componentes:
 * Gráficos
 
 O **header** é um componente padrão que será utilizado em ambas as telas e será exatamente o mesmo componente.
+
 O **menu de navegação lateral** é um componente padrão que será utilizado em ambas as telas e será exatamente o mesmo componente.
+
 Os **KPIs** é onde colocaremos informações consolidadas sobre times e jogadores
+
 As **listagens** é onde listaremos os jogadores e times
+
 O **gráfico** é onde colocaremos o gráfico de jogadores por time
+
 
 ![image](https://github.com/user-attachments/assets/e892e259-0095-44ef-bc5f-559b0dabc9e5)
 
@@ -101,11 +106,23 @@ Nesta tela, temos 3 botões:
 * Editar time
 * Remover time
 
+A tabela deve ter as colunas:
+* Logo (Com a imagem do jogador)
+* ID
+* Nome
+* Time (com logo e nome do time)
+* Botões de ação
+
 Ao clicar no botão de Adicionar time, é esperado que o sistema direcione para a tela de adição de time (`/times/novo`)
+
 Ao clicar no botão de Editar time (ícone de lápis na coluna "Ações" da linha do time), direcionaremos para a tela (`/times/<id>/editar`) para editar o time da linha
+
 Ao clicar no botão de Remover time (ícone de lixo na coluna "Ações" da linha do time), nós abriremos um Sweet Alert com a título "Tem certeza?" e a descrição "Remover o time é uma ação irreversível", com os botões "Sim" e "Não". 
+
   Ao clicar em "Não", cancelaremos a ação.
+  
   Ao clicar em "Sim", removeremos o time.
+  
   
 ![image](https://github.com/user-attachments/assets/cdf768fb-7741-46ad-a851-7e9a940f3f90)
 
@@ -158,11 +175,23 @@ Nesta tela, temos 3 botões:
 * Editar jogador
 * Remover jogador
 
+A tabela deve ter os campos:
+* Logo (com a imagem da logo do time)
+* ID
+* Nome
+* Quantidade de jogadores (qtd de jogadores cadastrados no time)
+* Botões de ação
+
 Ao clicar no botão de Adicionar jogador, é esperado que o sistema direcione para a tela de adição de time (`/jogadores/novo`)
+
 Ao clicar no botão de Editar jogador (ícone de lápis na coluna "Ações" da linha do jogador), direcionaremos para a tela (`/jogadores/<id>/editar`) para editar o jogador da linha
+
 Ao clicar no botão de Remover jogador (ícone de lixo na coluna "Ações" da linha do jogador), nós abriremos um Sweet Alert com a título "Tem certeza?" e a descrição "Remover o jogador é uma ação irreversível", com os botões "Sim" e "Não". 
+
   Ao clicar em "Não", cancelaremos a ação.
+  
   Ao clicar em "Sim", removeremos o jogador.
+  
   
 ![image](https://github.com/user-attachments/assets/7cc0093a-db88-4945-b213-e22661481ab7)
 
