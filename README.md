@@ -41,3 +41,5 @@ Sendo que o projeto de frontend ficará dentro da pasta de frontend e o projeto 
   * frontend
   * banco de dados
 * Uso de algum ORM (Prisma, TypeORM, Sequelize, etc...)
+* Upload do projeto para alguma cloud gratuita (Vercel, Netlify, etc)
+* Uso de algum repositório/bucket de imagens gratuito
